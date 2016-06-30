@@ -100,6 +100,7 @@ body{
 .ad{
     height: 100px;
     clear:both;
+    border: 1px dotted #AAAAAA;
 }
 
 .menu{
@@ -111,6 +112,29 @@ body{
     padding: 0 10px 20px 0;
     cursor: pointer;
     font-size: 14px;
+    transition: border 0.2s;
+    border-bottom:5px solid transparent;
+}
+.menu li+li{
+    padding: 10px 5px 20px 5px;
+}
+.menu li:hover, .menu li:active{
+    font-weight: bold;
+}
+.menu .recommendations:hover, .menu .recommendations:active{
+    border-bottom-color:#B90000;
+}
+.menu .artists:hover, .menu .artists:active{
+    border-bottom-color:#FF9900;
+}
+.menu .albums:hover, .menu .albums:active{
+    border-bottom-color:#009966;
+}
+.menu .tracks:hover, .menu .tracks:active{
+     border-bottom-color:#0066FF;
+ }
+.menu .events:hover, .menu .events:active{
+    border-bottom-color:#9900FF;
 }
 .main{
     width:800px;
@@ -121,7 +145,7 @@ body{
 }
 
 .sidebar{
-    width: 400px;
+    width: auto;
     float:right;
     background: #F9F9F9;
     border-left: 1px solid #ddd;
