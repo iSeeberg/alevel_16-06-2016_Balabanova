@@ -178,3 +178,43 @@ body{
 .playlist li+li{
     border-top: 1px solid #ddd;
 }
+
+.contacts{
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid #bbb;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 0 20px 20px 0;
+    color: #eee;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer li:hover{
+    text-decoration: underline;
+}
+
+.languages {
+    padding: 30px 0 10px 0;
+    background: url("footer_logo.png") no-repeat center right;
+}
+.languages li{
+    padding: 0 10px 10px 0;
+}
+
+.credits li {
+    display: inline-block;
+    padding: 0;
+    color: #666666;
+    cursor: pointer;
+    font-size: 12px;
+}
+.credits a {
+    text-decoration: none;
+    color: #666666;
+}
+.credits li+li::before{
+    content: " • ";
+    font-size: 0.7em;
+}
