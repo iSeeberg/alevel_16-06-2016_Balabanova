@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e2527d6-5d70-437b-96a3-a735dde4da86" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\footer_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\logo.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\play.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\про\WebstormProjects\alevel_16-06-2016_balabanova\stylesheet.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/footer_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/logo.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/img/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProBlack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/font/GothamProRegular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/css/media.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alevel_16-06-2016_balabanova.iws" />
@@ -171,18 +192,23 @@
       <created>1467567218433</created>
       <updated>1467567218433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw4 - a-level/frontend markup">
+      <created>1467902428764</created>
+      <updated>1467902428764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1377" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32669982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24943988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -192,7 +218,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -215,7 +240,8 @@
     </option>
     <MESSAGE value="second commit - menu" />
     <MESSAGE value="third commit - footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit - footer" />
+    <MESSAGE value="hw4 - a-level/frontend markup" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4 - a-level/frontend markup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

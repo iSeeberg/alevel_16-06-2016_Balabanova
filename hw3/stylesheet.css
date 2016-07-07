@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,700,700italic&subset=latin,cyrillic-ext);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/*css reset*/
+
+body{
+    background:#aaa;
+    font: normal 12px "Open Sans","Lucida Grande","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.wrapper{
+    background: #fff;
+}
+.header_fixed{
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header{
+    margin-top: 60px;
+    height: 48px;
+    background: url(bg.png) center;
+    line-height: 48px;
+    color: #ffffff;
+}
+.header .left{
+    float: left;
+}
+.header .right{
+    float: right;
+    font-size: 18px;
+}
+
+.header li:hover{
+    color: darkred;
+    cursor: pointer;
+}
+
+.header li{
+    display: inline-block;
+    padding: 0 7px 0 7px;
+
+}
+
+.header input{
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.header input::-webkit-input-placeholder {color:#fff;}
+.header input::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.header input:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.header input:-ms-input-placeholder      {color:#fff;}
+
+.content{
+    height: 500px;
+}
+.footer{
+    height: 270px;
+    background-color:#AAAAAA;
+
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+@media (max-width:320px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .main{
+        width:100%;
+        float:none;
+        overflow: hidden;
+        border-right: 1px solid #ebebeb;
+
+    }
+
+    .sidebar{
+        width:100%;
+        float:none;
+        background: #F9F9F9;
+
+    }
+}
+.ad{
+    height: 100px;
+    clear:both;
+    border: 1px dotted #AAAAAA;
+}
+
+.menu{
+    border-bottom: 1px solid #ddd;
+
+}
+.menu li{
+    display: inline-block;
+    padding: 0 10px 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: border 0.2s;
+    border-bottom:5px solid transparent;
+}
+.menu li+li{
+    padding: 10px 5px 20px 5px;
+}
+.menu li:hover, .menu li:active{
+    font-weight: bold;
+}
+.menu .recommendations:hover, .menu .recommendations:active{
+    border-bottom-color:#B90000;
+}
+.menu .artists:hover, .menu .artists:active{
+    border-bottom-color:#FF9900;
+}
+.menu .albums:hover, .menu .albums:active{
+    border-bottom-color:#009966;
+}
+.menu .tracks:hover, .menu .tracks:active{
+     border-bottom-color:#0066FF;
+ }
+.menu .events:hover, .menu .events:active{
+    border-bottom-color:#9900FF;
+}
+.main{
+    width:800px;
+    float:left;
+    overflow: hidden;
+
+
+}
+
+.sidebar{
+    width: auto;
+    float:right;
+    background: #F9F9F9;
+    border-left: 1px solid #ddd;
+
+}
+.playlist{
+    padding: 1em;
+}
+.playlist li{
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0.4em 0;
+    line-height: 26px;
+}
+
+.playlist li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.playlist li::before{
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url(play.png);
+    vertical-align: middle;
+    margin-right: 0.8em;
+}
+.playlist li+li{
+    border-top: 1px solid #ddd;
+}
+
+.contacts{
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid #bbb;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 0 20px 20px 0;
+    color: #eee;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer li:hover{
+    text-decoration: underline;
+}
+
+.languages {
+    padding: 30px 0 10px 0;
+    background: url("footer_logo.png") no-repeat center right;
+}
+.languages li{
+    padding: 0 10px 10px 0;
+}
+
+.credits li {
+    display: inline-block;
+    padding: 0;
+    color: #666666;
+    cursor: pointer;
+    font-size: 12px;
+}
+.credits a {
+    text-decoration: none;
+    color: #666666;
+}
+.credits li+li::before{
+    content: " • ";
+    font-size: 0.7em;
+}
